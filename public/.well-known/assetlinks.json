@@ -1,7 +1,7 @@
 [{
   "relation": ["delegate_permission/common.handle_all_urls"],
   "target": {
-    "namespace": "com.onelab.oneapp",
+    "namespace": "android_app",
     "package_name": "com.onelab.oneapp",
     "sha256_cert_fingerprints":
     ["0F:BB:4D:50:47:C6:2F:85:8D:A8:F5:B3:E1:21:73:44:1C:E2:EA:D5:82:37:3F:F3:29:4E:8B:43:81:34:11:E3"]
