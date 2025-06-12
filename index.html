@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Redirecting to Earnscape App (Scan)</title>
+  <title>Redirecting to Earnscape App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
       font-family: sans-serif;
@@ -10,25 +11,18 @@
       padding-top: 50px;
       background-color: #f4f4f4;
     }
-    a {
-      display: inline-block;
-      margin-top: 20px;
-      padding: 15px 25px;
-      font-size: 18px;
-      background-color: #007BFF;
-      color: white;
-      text-decoration: none;
-      border-radius: 5px;
-    }
-    a:hover {
-      background-color: #0056b3;
-    }
   </style>
+  <script>
+    window.onload = function() {
+      // Delay 1 second before redirection
+      setTimeout(function() {
+        window.location.href = "intent://accountSettings/#Intent;scheme=earnscape;package=com.onelab.oneapp;end;";
+      }, 1000); // 1000 ms = 1 second
+    };
+  </script>
 </head>
 <body>
-  <h2>Open Earnscape App - Scan Page</h2>
-  <a href="intent://accountSettings/#Intent;scheme=earnscape;package=com.onelab.oneapp;end;">
-    Open in App
-  </a>
+  <h2>Redirecting to Earnscape App...</h2>
+  <p>If you are not redirected, <a href="intent://accountSettings/#Intent;scheme=earnscape;package=com.onelab.oneapp;end;">click here</a>.</p>
 </body>
 </html>
