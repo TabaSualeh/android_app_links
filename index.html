@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Redirecting...</title>
+  <script>
+    // Try to open app
+    window.location = "intent://android_app_links/#Intent;scheme=https;package=com.onelab.oneapp;end;";
+    
+    // Fallback to website after 2s
+    setTimeout(function() {
+      window.location = "https://tabasualeh.github.io/android_app_links/";
+    }, 2000);
+  </script>
+</head>
+<body>
+  <p>Redirecting to the app...</p>
+</body>
+</html>
